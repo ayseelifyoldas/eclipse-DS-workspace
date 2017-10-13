@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" immediate="true" name="quoteconsumer">
+   <reference bind="setQuote" cardinality="1..1" interface="de.vogella.osgi.quote.IQuoteService" name="quoteconsumer" unbind="unsetQuote"/>
+   <implementation class="de.vogella.osgi.ds.quoteconsumer.QuoteConsumer"/>
+</scr:component>

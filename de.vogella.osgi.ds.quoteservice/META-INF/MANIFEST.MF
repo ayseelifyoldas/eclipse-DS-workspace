@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Quoteservice
+Bundle-SymbolicName: de.vogella.osgi.ds.quoteservice
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: de.vogella.osgi.quote;bundle-version="1.0.0"
+Bundle-ActivationPolicy: lazy
+Service-Component: OSGI-INF/quote.service.xml
