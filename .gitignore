@@ -2,3 +2,7 @@
 .metadata
 #jar files
 *.jar
+#recommenders file
+.recommenders
+#compiled class file
+*.class
